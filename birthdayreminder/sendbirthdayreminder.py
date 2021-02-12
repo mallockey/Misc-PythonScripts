@@ -31,11 +31,8 @@ if len(send_string) > 0:
       from_= twilio_number,
       body = send_string
     )
+    print("Message sent successfully!")
   except:
     print("There was an error sending the message") 
-  
-  print("Message sent successfully!")
 else:
   print("There are no birthdays coming up in the next 30 days") 
-
-
